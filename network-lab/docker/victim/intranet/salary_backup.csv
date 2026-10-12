@@ -1,0 +1,9 @@
+employee_id,last_name,first_name,department,annual_salary,account_no
+1001,Carter,Alice,Engineering,92000,ACCT-4410
+1002,Okafor,Bob,Support,61000,ACCT-4411
+1003,Lindqvist,Carol,HR,78000,ACCT-4412
+1004,Reyes,Dan,Engineering,105000,ACCT-4413
+1005,Haddad,Eve,Finance,88000,ACCT-4414
+1006,Kim,Frank,Engineering,99000,ACCT-4415
+1007,Novak,Grace,Support,59000,ACCT-4416
+1008,Silva,Hank,Finance,94000,ACCT-4417

@@ -1,0 +1,55 @@
+Server listening on 0.0.0.0 port 22.
+Server listening on :: port 22.
+Connection from 10.89.0.20 port 57558 on 10.89.0.10 port 22 rdomain ""
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 10.89.0.20 port 57558
+Connection from 10.89.0.20 port 53114 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 53114 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 53114 [preauth]
+Connection from 10.89.0.20 port 53124 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 53124 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 53124 [preauth]
+Connection from 10.89.0.20 port 51160 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 51160 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 51160 [preauth]
+Connection from 10.89.0.20 port 51170 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 51170 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 51170 [preauth]
+Connection from 10.89.0.20 port 51176 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 51176 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 51176 [preauth]
+Connection from 10.89.0.20 port 51188 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 51188 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 51188 [preauth]
+Connection from 10.89.0.20 port 56190 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 56190 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 56190 [preauth]
+Connection from 10.89.0.20 port 56198 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 56198 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 56198 [preauth]
+Connection from 10.89.0.20 port 56206 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 56206 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 56206 [preauth]
+Connection from 10.89.0.20 port 41336 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 41336 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 41336 [preauth]
+Connection from 10.89.0.20 port 41348 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 41348 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 41348 [preauth]
+Connection from 10.89.0.20 port 41354 on 10.89.0.10 port 22 rdomain ""
+Failed password for dev from 10.89.0.20 port 41354 ssh2
+Connection closed by authenticating user dev 10.89.0.20 port 41354 [preauth]
+Connection from 10.89.0.20 port 35496 on 10.89.0.10 port 22 rdomain ""
+Accepted password for dev from 10.89.0.20 port 35496 ssh2
+User child is on pid 62
+Starting session: command for dev from 10.89.0.20 port 35496 id 0
+Close session: user dev from 10.89.0.20 port 35496 id 0
+Received disconnect from 10.89.0.20 port 35496:11: disconnected by user
+Disconnected from user dev 10.89.0.20 port 35496
+Connection from 10.89.0.20 port 35502 on 10.89.0.10 port 22 rdomain ""
+Accepted password for dev from 10.89.0.20 port 35502 ssh2
+User child is on pid 75
+Starting session: command for dev from 10.89.0.20 port 35502 id 0
+Close session: user dev from 10.89.0.20 port 35502 id 0
+Received disconnect from 10.89.0.20 port 35502:11: disconnected by user
+Disconnected from user dev 10.89.0.20 port 35502

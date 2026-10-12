@@ -1,0 +1,23 @@
+services:
+  victim:
+    build: ./docker/victim
+    hostname: devserver
+    networks:
+      labnet:
+        ipv4_address: 10.89.0.10
+    volumes:
+      - ./artifacts:/captures
+
+  attacker:
+    build: ./docker/attacker
+    hostname: attacker-01
+    networks:
+      labnet:
+        ipv4_address: 10.89.0.20
+
+networks:
+  labnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.89.0.0/24
