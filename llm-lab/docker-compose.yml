@@ -1,16 +1,10 @@
 services:
-  vulnerable:
-    build: .
+  ollama:
+    image: ollama/ollama:latest
     ports:
-      - "6000:6000"
-    environment:
-      PORT: "6000"
-      SECURE: "0"
+      - "11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama
 
-  secure:
-    build: .
-    ports:
-      - "6001:6000"
-    environment:
-      PORT: "6000"
-      SECURE: "1"
+volumes:
+  ollama-models:

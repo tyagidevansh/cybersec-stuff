@@ -1,0 +1,15 @@
+#!/bin/bash
+# Usage: ./ask "your prompt here"    or    ./ask "$(cat payloads/level2.txt)"
+# Sends one prompt to helpbot (stateless — no memory between calls) and prints the reply.
+set -euo pipefail
+PROMPT="${*:-$(cat)}"
+python3 - "$PROMPT" <<'EOF'
+import json, sys, urllib.request
+prompt = sys.argv[1] if len(sys.argv) > 1 else sys.stdin.read()
+req = urllib.request.Request(
+    "http://localhost:11434/api/generate",
+    data=json.dumps({"model": "helpbot", "prompt": prompt,
+                     "stream": False}).encode(),
+    headers={"Content-Type": "application/json"})
+print(json.load(urllib.request.urlopen(req, timeout=300))["response"])
+EOF
