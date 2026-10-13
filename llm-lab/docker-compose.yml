@@ -1,0 +1,16 @@
+services:
+  vulnerable:
+    build: .
+    ports:
+      - "6000:6000"
+    environment:
+      PORT: "6000"
+      SECURE: "0"
+
+  secure:
+    build: .
+    ports:
+      - "6001:6000"
+    environment:
+      PORT: "6000"
+      SECURE: "1"

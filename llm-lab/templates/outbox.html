@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block title %}Outbox{% endblock %}{% block body %}
+<h1>Sent mail</h1>
+<p class="muted">Every email the assistant actually sent. If something here surprises you, ask how it got sent.</p>
+{% for e in emails %}<div class="mail"><b>To:</b> {{ e.to }}<br><b>Subject:</b> {{ e.subject }}<pre>{{ e.body }}</pre></div>
+{% else %}<p class="muted">No emails sent yet.</p>{% endfor %}
+<p><a href="/">← back to chat</a></p>
+{% endblock %}

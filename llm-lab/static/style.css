@@ -1,0 +1,15 @@
+body{font-family:system-ui,sans-serif;background:#f6f7f9;color:#1c2330;margin:0}
+.wrap{max-width:780px;margin:2rem auto;background:#fff;padding:2rem;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+header{display:flex;gap:1rem;align-items:center;margin-bottom:1rem}
+.logo{font-weight:800;font-size:1.3rem}
+.tag{font-size:.8rem;color:#666;border:1px solid #ddd;padding:.2rem .6rem;border-radius:20px}
+nav{margin-left:auto}.muted{color:#666}
+input{padding:.5rem;border:1px solid #ccc;border-radius:6px}
+button{padding:.5rem 1rem;border:0;background:#1c2330;color:#fff;border-radius:6px;cursor:pointer}
+.u,.a{border-top:1px solid #eee;padding:.6rem 0}
+pre{background:#111;color:#d6f5c8;padding:.8rem;border-radius:8px;overflow:auto;white-space:pre-wrap}
+.tool{display:inline-block;background:#fff3cd;border:1px solid #e0c36a;border-radius:6px;padding:.1rem .5rem;margin:.2rem .2rem .2rem 0;font-size:.85rem}
+.t{font-size:.85rem;color:#555;padding:.1rem 0}
+.mail{border:1px solid #ddd;border-radius:8px;padding:.8rem;margin:.6rem 0}
+details{margin-top:.3rem;font-size:.9rem}summary{cursor:pointer;color:#444}
+code{background:#eef;padding:.1rem .3rem;border-radius:4px}

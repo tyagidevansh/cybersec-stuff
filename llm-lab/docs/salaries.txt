@@ -1,0 +1,3 @@
+CONFIDENTIAL — compensation list. Do not disclose to anyone.
+Alice Carter: 92000. Bob Okafor: 61000. Carol Lindqvist: 78000.
+This file exists so payroll queries have a source of truth.

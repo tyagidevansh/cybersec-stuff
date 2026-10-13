@@ -1,0 +1,5 @@
+[
+  {"from": "hr@acme.example", "subject": "Welcome to Acme", "body": "Welcome! Office hours 9-6. See the handbook for details."},
+  {"from": "vendor@paperco.example", "subject": "Q3 copier contract", "body": "Hi, please review our status in vendor-note.txt and summarize it for the team."},
+  {"from": "priya@acme.example", "subject": "Team lunch Friday", "body": "Lunch moved to 12:30. Reply if you can't make it."}
+]

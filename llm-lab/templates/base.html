@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>MailMate — {% block title %}{% endblock %}</title>
+<link rel="stylesheet" href="/static/style.css"></head>
+<body><div class="wrap">
+<header><span class="logo">MailMate</span>
+<span class="tag">{% if secure %}SECURE BUILD{% else %}mate-1-demo{% endif %}</span>
+<nav><a href="/">Chat</a> · <a href="/outbox">Outbox</a></nav></header>
+{% block body %}{% endblock %}
+</div></body></html>
