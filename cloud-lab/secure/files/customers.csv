@@ -1,0 +1,5 @@
+customer_id,name,email,plan,card_last4
+9001,Alice Carter,alice@example.com,pro,4410
+9002,Bob Okafor,bob@example.com,free,4411
+9003,Carol Lindqvist,carol@example.com,pro,4412
+9004,Dan Reyes,dan@example.com,team,4413

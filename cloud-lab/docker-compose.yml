@@ -1,0 +1,13 @@
+services:
+  localstack:
+    image: localstack/localstack:4.9.2
+    ports:
+      - "4566:4566"
+    environment:
+      SERVICES: s3,iam,ec2,sts,kms,secretsmanager
+      DEBUG: "0"
+    volumes:
+      - localstack-data:/var/lib/localstack
+
+volumes:
+  localstack-data:

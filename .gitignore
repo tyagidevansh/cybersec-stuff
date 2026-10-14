@@ -1,0 +1,20 @@
+# Terraform — provider binaries, state (holds secrets in cleartext), vars
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
